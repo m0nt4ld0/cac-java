@@ -1,0 +1,25 @@
+/*
+    comentario valido en css
+    inline > id > class > global
+    el que le gana a todos es important
+*/
+* {
+    /* modelo de caja
+    margin:  0;
+    padding: 0;
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo {
+    font-size: 22px;
+    
+}
+
+#titulo {
+    color: orangered;
+}
+
+#subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+}
