@@ -65,6 +65,17 @@
     margin: 0% 5% 75% 5%;
 }
 
+/* Estilos de la cronologia  */
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.timeline {
+    
+}
+
 .timeline li:before { content: '\1F4BB'; margin-left: -20px; margin-right: 10px; }
 
 /* Estilos del footer */
