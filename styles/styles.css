@@ -66,6 +66,16 @@
 }
 
 /* Estilos de la cronologia  */
+.logo-square {
+    width: 150px;
+    height: 150px;
+}
+
+.logo-rectangle {
+    width: 350px;
+    height: 200px;
+}
+
 .timeline-container {
     display: flex;
     justify-content: center;
