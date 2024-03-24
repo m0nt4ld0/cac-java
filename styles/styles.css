@@ -15,7 +15,7 @@
   }
 
 .main-menu {
-    margin: 0;
+    margin: 10px;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);

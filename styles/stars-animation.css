@@ -1,6 +1,6 @@
 
 /* INICIO ESTILOS ANIMACION CSS */
-html {
+.wrapper {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #FFFCF2 0%,#CCC5B9 100%);
 }
