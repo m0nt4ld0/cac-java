@@ -2,19 +2,11 @@
     comentario valido en css
     inline > id > class > global
     el que le gana a todos es important
-    
-    Paleta de colores seleccionada: https://coolors.co/palette/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf
-    #EDEDE9 
-    #D6CCC2
-    #F5EBE0
-    #E3D5CA
-    #D5BDAF
 */
 * {
-    background-color: #FFFCF2;
+    /*background-color: #FFFCF2; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 /* Estilos del menú principal */
 
 .menu-container {
@@ -105,9 +97,6 @@
     width:100%;
 }
 
-.timeline {
-    
-}
 
 .timeline li:before { content: '\1F4BB'; margin-left: -20px; margin-right: 10px; }
 
