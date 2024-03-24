@@ -107,6 +107,12 @@
     float: left;
 }
 
+.card-1:hover {
+    width:235px;
+    height:360px;
+    margin:10px;
+}
+
 /* Estilos de la cronologia  */
 .card-1 img {
     width: 150px;
@@ -230,6 +236,19 @@
     color:#FFFCF2;
     padding: 10px;
     text-decoration: none;
+    background: linear-gradient(45deg, transparent 5%, #252422 5%);
+}
+
+.button-1-highlight, .button-1-highlight::after{
+    background-color: #EB5E28;
+    color:#FFFCF2;
+    padding: 10px;
+    text-decoration: none;
+    background: linear-gradient(45deg, transparent 5%, #EB5E28 5%);
+}
+
+.button-1-highlight:hover {
+    color: #EB5E28;
     background: linear-gradient(45deg, transparent 5%, #252422 5%);
 }
 
