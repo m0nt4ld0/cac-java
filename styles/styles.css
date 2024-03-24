@@ -73,6 +73,7 @@
 .content-box {
     margin: 0% 5% 75% 5%;
     background-color: transparent;
+    padding-top: 60px;
 }
 
 .content-box h3 {
