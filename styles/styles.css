@@ -79,14 +79,47 @@
     color: #252422;
 }
 
+.content-box h4 {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 1.75rem;
+    color: #252422;
+}
+
 .content-box p {
     background-color: transparent;
 }
 
+/* Estilos del portfolio */
+
+#portfolio {
+    padding:10px;
+    background-color: #CCC5B9;
+}
+
+.card-1 {
+    background-color: #FFFCF2;
+    width:225px;
+    height:350px;
+    margin:20px;
+    background: linear-gradient(45deg, transparent 5%, #FFFCF2 5%);
+    float: left;
+}
+
 /* Estilos de la cronologia  */
-.logo-square {
+.card-1 img {
     width: 150px;
     height: 150px;
+    margin-left:35px;
+}
+
+.card-1 h5 {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 0.83em;
+    color: #252422;
+    margin-left:35px;
 }
 
 .logo-rectangle {
@@ -197,7 +230,7 @@
     color:#FFFCF2;
     padding: 10px;
     text-decoration: none;
-    background: linear-gradient(45deg, transparent 5%, #111 5%);
+    background: linear-gradient(45deg, transparent 5%, #252422 5%);
 }
 
 .button-1:hover {
