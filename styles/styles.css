@@ -17,14 +17,10 @@
 
 /* Estilos del menú principal */
 
-#logo {
-    float:left;
-    height: 75px;
-}
-
 .menu-container {
-    height: 200px;
+    height: 55px;
     position: relative;
+    background-color: #D5BDAF;
   }
 
 .main-menu {
@@ -33,13 +29,15 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    height: 75px;
+    height: 25px;
+    background-color: transparent;
 }
 
 .main-menu ul {
     margin: 0;
     position: absolute;
     top: 50%;
+    background-color: transparent;
 }
 
 .main-menu a {
@@ -48,6 +46,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     color: #111;
+    background-color: transparent;
 }
 
 /* Estilos del home */
@@ -57,6 +56,10 @@
     padding: 15% 0%;
     margin-bottom: 5%;
     text-align: center;
+}
+
+.home h1 {
+    font-size: 65px;
 }
 
 /* Estilos del contenido del resto de las secciones  */
@@ -71,6 +74,16 @@
 
 .content-box {
     margin: 0% 5% 75% 5%;
+    background-color: transparent;
+}
+
+.content-box h3 {
+    background-color: transparent;
+    color: #D5BDAF;
+}
+
+.content-box p {
+    background-color: transparent;
 }
 
 /* Estilos de la cronologia  */
@@ -182,4 +195,18 @@
     margin-right: 2px;
     border-radius: 50%;
     background-color: white;
+}
+
+/* Estilos generales (botones y otros elementos) */
+
+.button-1, .button-1::after {
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    background: linear-gradient(45deg, transparent 5%, #111 5%);
+}
+
+.button-1:hover {
+    color:orange;
+    transform: rotate(25deg);
 }
