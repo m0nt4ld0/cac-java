@@ -19,6 +19,11 @@
                         <a href="#misc">Misceláneos</a> |
                         <a href="#contact-me">Contactarme</a>
                     </div>
+                    <div id="search">
+                        <form class="search-form">
+                            <input type="text" value="Buscar..." /><input type="submit" value="🔍" />
+                        </form>
+                    </div>
                 </div>
             </nav>
             <div class="home">
@@ -44,7 +49,6 @@
         <section id="portfolio">
             <div class="content-box">
                 <h3>Portfolio</h3>
-                <p>Estos son algunos de mis proyectos y de las compañías que confiaron en mí</p>
                 <div class="card-1">
                     <img class="logo-square" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.TXp4x-XNmu8M6_YXE5uJpAAAAA%26pid%3DApi&f=1&ipt=7ad77d7c4768fd06ea941a8f2c1681683f487e5dac52b7cc3092a05b7ca0c768&ipo=images" alt="Provincia Seguros"/>
                     <h5>Provincia Seguros</h5>
@@ -99,10 +103,34 @@
         <div class="footer-col2">
             <h4>Contactarme</h4>
             <form>
-                <label for="nombre">Nombre: </label><input type="text" id="nombre" value="Tu nombre" required /><br><br>
-                <label for="mail">E-mail: </label><input type="email" id="mail" format=".+@example\.com" required /><br><br>
-                <label for="consulta">Tu consulta: </label><textarea id="consulta" cols="50" rows="7"></textarea>
-                <input type="submit" value="Enviar"/>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nombre">Nombre: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="nombre" value="Tu nombre" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mail">E-mail: </label>
+                        </td>
+                        <td>
+                            <input type="email" id="mail" format=".+@ejemplo\.com" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="consulta">Tu consulta: </label></td>
+                        <td><textarea id="consulta" cols="50" rows="7"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Enviar"/>
+                        </td>
+                    </tr>
+                </table>
+                
             </form>
         </div>
     </footer>
